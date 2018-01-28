@@ -1,4 +1,5 @@
 function takeANumber(katzDeliLine, newPerson) {
   katzDeliLine.push(newPerson)
-  var message = ``
+  var position = katzDeliLine.length
+  return `You are ${position}th in line.`
 }
