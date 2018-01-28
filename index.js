@@ -1,3 +1,4 @@
 function takeANumber(katzDeliLine, newPerson) {
-  kat
+  katzDeliLine.push(newPerson)
+  var message = ``
 }
